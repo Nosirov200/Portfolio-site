@@ -19,8 +19,8 @@ body {
 
 
 
-/* Navbar section */
-.main-header {
+ /* Navbar section */
+ .main-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .main-header__brand img {
-    width: 4rem;
+    width: 64px;
 }
 
 .main-navigation__item {
@@ -333,19 +333,9 @@ button {
 
 /* Media */
 @media only screen and (max-width: 991px) {
-    html {
-        font-size: 30px;
-    }
-
     .container {
-        width: 100%;
+        width: 95%;
     }
-
-    /* Main navigation */
-    .main-navigation {
-        display: none;
-    }
-
     /* Footer */
     .footer-navigation {
         display: none;
@@ -384,4 +374,21 @@ button {
         margin-top: 2rem;
        
     }
+}
+@media (max-width:420px) {
+
+    .main-navigation__item {
+        padding: 0.35rem;
+    }
+}
+
+@media only screen and (max-width:389px) {
+    .container {
+        width: 90%;
+    }
+
+    .main-navigation__item {
+        padding: 0.1rem;
+    }
+
 }

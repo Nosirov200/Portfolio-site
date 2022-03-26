@@ -5,65 +5,6 @@ html {
 
 
 
-.main-banner {
-    background: url('../Images/main-banner.png') no-repeat top center;
-    background-position: center;
-    background-size: cover;
-    min-height: 890px;
-}
-
-.main-section {
-    padding: 7.5rem 1.87rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-section__image {
-    text-align: right;
-}
-
-.main-section__welcome {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 1.25rem;
-    letter-spacing: 2px;
-    color: #797979;
-}
-
-.main-section__introduction {
-    margin-top: 1.25rem;
-    font-size: 6.75rem;
-    font-weight: 500;
-    margin-bottom: 1.25rem;
-    color: #05364E
-}
-
-.main-section__position {
-    color: #05364E;
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 1.25rem;
-}
-
-.main-section__social-networks a {
-    color: #8FA1AA;
-    font-size: 1.5rem;
-    display: inline-block;
-    margin-right: 1rem;
-    cursor: pointer;
-}
-
-.main-section__social-networks a:hover i {
-    color: #1C44E4;
-}
-
-.main-section__action {
-    margin-top: 1.87rem;
-}
-
-/* /Home page */
-
-
 
 
 /* Portfolio page */
